@@ -1,0 +1,31 @@
+# 1. Simulation & Waveform Files (Large binaries)
+*.vcd
+*.fsdb
+*.vpd
+simv
+simv.*
+csrc/
+work/
+*.log
+*.key
+
+# 2. Synopsys Synthesis Junk
+*.svf
+*.mr
+*.pvl
+*.syn
+alib-52/
+DEFAULT.DB
+command.log
+
+# 3. Proprietary Foundry Files (CRITICAL to ignore)
+*.lib
+*.db
+*.tech
+*.lef
+*.gds
+
+# 4. OS & Editor Hidden Files
+.DS_Store
+.vscode/
+*.swp
