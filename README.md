@@ -17,8 +17,7 @@ The datapath is partitioned into three distinct, interconnected modules to ensur
 2. **Parallel Accumulation (Dadda Tree):** The 8 rows are compressed using a structurally instantiated Dadda reduction tree. By adhering to the optimal Dadda compression sequence (8 → 6 → 4 → 3 → 2 rows), the architecture guarantees the absolute minimum number of logic gates required to achieve a logarithmic $O(\log N)$ delay profile.
 3. **Final Addition (CPA):** A terminal Carry Propagate Adder resolves the final two rows into the 32-bit product.
 
-*(Optional: Insert your block diagram here)*
-`![Architecture Block Diagram](doc/block_diagram.png)`
+<img width="495" height="282" alt="image" src="https://github.com/user-attachments/assets/306af1bf-e4a0-4a80-b65d-6cc2e0907826" />
 
 ---
 
